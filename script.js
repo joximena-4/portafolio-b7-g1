@@ -34,9 +34,9 @@ let typewriterFrase = new Typewriter(frase, {
 // Acciones se distinguen por los paréntesis ()
 typewriterFrase
     .pauseFor(2500)
-    .typeString('Nunca te rindas hasta ver realizado tus sueños. Siempre sueña en grande...')
+    .typeString('Si tú tienes este sueño... tú puedes.')
     .pauseFor(300)
     .deleteAll()
-    .typeString('Dalai Lama')
+    .typeString('Katya Echazarreta')
     .pauseFor(1000)
     .start();
